@@ -38,6 +38,10 @@ public class Project1 {
          Order order =new Order(33,LocalDateTime.now(),c1,44.40,items);
          System.out.println(order.get_order_date());
          
+         Payment p = new Payment(22, order,LocalDateTime.now(),555.66,"vodafone cash");
+         
+         System.out.println(p.get_amount());
+         
          
     }
 }
