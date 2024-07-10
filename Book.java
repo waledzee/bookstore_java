@@ -4,32 +4,32 @@
  */
 package com.mycompany.project1;
 
-/**
- *
- * @author m
- */
 public class Book {
     private String title;
     private String author;
     private String ISBN;
     private int price;
     private int quantity;
-    
-    public Book(String title,String author,String ISBN, int price,int quantity)
-    {
-        this.title=title;
-        this.author=author;
-        this.ISBN=ISBN;
-        this.price=price;
-        this.quantity=quantity;
+
+   
+
+    // Constructor with arguments
+    public Book(String title, String author, String ISBN, int price, int quantity) {
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBN;
+        this.price = price;
+        this.quantity = quantity;
     }
+
+
     
     public void set_title(String title)
     {
         this.title=title;
     }
     
-    public String get_title()
+    public String getTitle()
     {
         return title;
     }
